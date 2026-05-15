@@ -14,13 +14,8 @@ function makeArmy() {
 
   let i = 0;
   while (i < 10) {
-<<<<<<< HEAD
     let shooter = function() { // shooter 함수
       alert( i ); // 몇 번째 shooter인지 출력해줘야 함
-=======
-    let shooter = function() { // create a shooter function,
-      alert( i ); // that should show its number
->>>>>>> upstream/master
     };
     shooters.push(shooter); // and add it to the array
     i++;
